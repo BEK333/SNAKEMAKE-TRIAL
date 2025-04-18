@@ -1,0 +1,14 @@
+name: snakemake-jupyter
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - snakemake
+  - pandas
+  - jupyterlab       # JupyterLab interface
+  - ipywidgets       # Optional: For interactive widgets
+  - pip
+  - pip:
+    - matplotlib
+    - seaborn        # Optional: For plotting
