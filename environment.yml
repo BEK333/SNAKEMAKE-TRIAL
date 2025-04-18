@@ -1,0 +1,13 @@
+name: snakemake-training
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - snakemake
+  - pandas
+  - jupyterlab       # Add this line for JupyterLab
+  # - notebook      # Alternatively, use this for classic Jupyter Notebook
+  - pip
+  - pip:
+  - matplotlib
